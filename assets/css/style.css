@@ -1,0 +1,63 @@
+/***************************** GENERAL */ 
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+flex-wrap: wrap;
+}
+
+.main_marg {
+    margin: 0 45px;
+}
+
+.top_border {
+    border-top: 1px solid;
+}
+
+.top_marg {
+    margin-top: 22.5px;
+}
+
+/*****************************  Index */
+
+#background {
+    background-image: url("../images/background.jpg");
+    min-height: 450px;
+    text-align: center;
+    padding-top: 190px;
+    font-size: 45px;
+
+}
+
+#navbarNav {
+    margin-top: 22.5px;
+    margin-bottom: 22.5px;
+    justify-content: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+#navbarNav li{
+    text-align: center;
+    margin-right: 50px;
+    padding-left: 75px;
+}
+
