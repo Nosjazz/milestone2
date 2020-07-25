@@ -1,20 +1,24 @@
 /***************************** GENERAL */ 
 
-/* Column container */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .row {  
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
 .side {
   flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
 }
 
-/* Main column */
+
 .main {
   flex: 70%;
   background-color: white;
@@ -32,8 +36,14 @@ flex-wrap: wrap;
     border-top: 1px solid;
 }
 
-.top_marg {
+.marg {
     margin-top: 22.5px;
+    margin-bottom: 22.5px;
+}
+
+.marg-2 {
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 /*****************************  Index */
@@ -59,5 +69,28 @@ flex-wrap: wrap;
     text-align: center;
     margin-right: 50px;
     padding-left: 75px;
+}
+
+
+/*****************************  Side */
+
+#profile_index {
+    border-radius: 50%;
+    height: 200px;
+    justify-content: center;
+    margin-bottom: 22.5px;
+}
+
+#pat_but {
+    font-size: 45px;
+    width: 75px;
+}
+
+.fontaw_side {
+    width: 75px;
+    height: 15px;
+    margin-right: 45px;
+    font-size: 45px;
+
 }
 

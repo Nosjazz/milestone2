@@ -8,7 +8,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
     <title>Nossjazz.World</title>
 </head>
@@ -28,6 +28,9 @@
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="french.html">French</a>
                 </li>
                 <li class="nav-item">
@@ -45,7 +48,6 @@
     </div>
 
     <div class="row">
-        
         <section class="main">
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -54,9 +56,9 @@
         </section>
 
         <aside class="side">
-            <div class="top_marg">
+            <div class="marg">
                 <div>
-                    <img src="assets/images/about1.jpg" style="height:200px">
+                    <img src="assets/images/about1.jpg" alt="profile picture index" id="profile_index" class="center">
                 </div>
 
                 <div>
@@ -64,18 +66,36 @@
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    <a href="about.html">Read more...</a>
                 </div>
             </div>
 
-            <div class="top_border top_marg">
-                Sub
+            <div class="top_border marg">
+                <div>
+                    <div>
+                        <h4 class="marg">Subscribe to our Newsletter</h4>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <span class="input-group-btn">
+                        <button class="btn btn-theme" type="submit">Subscribe</button>
+                        </span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="top_border top_marg">
-                Social
+            <div class="top_border marg">
+                <h4 class="marg"> Support me on Patreon! </h4>
+                <a href="" class="center" id="#pat_but"><i class="fa fa-patreon" aria-hidden="true"></i> </a>
+            </div>
+
+            <div class="top_border marg">
+                <h4 class="marg"> Follow me </h4>
+                    <a href=""><i class="fa fa-instagram fontaw_side" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-facebook fontaw_side" aria-hidden="true"></i></a>
             </div>
         </aside>
-        
+
     </div>
 </body>
 </html>
