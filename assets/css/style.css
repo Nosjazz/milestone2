@@ -72,6 +72,16 @@ flex-wrap: wrap;
 }
 
 
+/*****************************  Main */
+
+
+.index_img_cat {
+    width: 150px;
+    height: 75px;
+    margin-top: 45px;
+}
+
+
 /*****************************  Side */
 
 #profile_index {
@@ -81,16 +91,12 @@ flex-wrap: wrap;
     margin-bottom: 22.5px;
 }
 
-#pat_but {
-    font-size: 45px;
-    width: 75px;
-}
 
 .fontaw_side {
     width: 75px;
-    height: 15px;
     margin-right: 45px;
-    font-size: 45px;
-
+    padding-left: 75px;
+    color: pink;
+    text-align: center;
 }
 
