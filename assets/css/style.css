@@ -100,3 +100,10 @@ flex-wrap: wrap;
     text-align: center;
 }
 
+/*****************************  Footer */
+
+.footer {
+    padding: 22.5px;
+    margin: 0 auto;
+    background-color: pink;
+}
